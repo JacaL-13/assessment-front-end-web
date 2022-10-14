@@ -1,0 +1,68 @@
+body {
+  background: #ddd;
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 500px;
+  margin: 2rem auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+nav {
+	border-bottom: 2px solid orange;
+}
+
+ol {
+	padding-left: 0;
+}
+
+.crumb {
+	margin-right: 2em;
+	display: inline;
+}
+
+a {
+	color: orange;
+}
+
+a:visited {
+	color: crimson;
+}
+
+
+input {
+	display: block;
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-bottom: 10px;
+}
+
+img {
+	max-width: 300px;
+}
+
+ul.no-dot {
+	list-style-type: none;
+}
+
+label {
+    display: flex;
+}
+
+div.flexxed {
+	display: flex;
+}
+
+li {
+	margin-bottom: 5px;
+}
+
+button.yellow {
+	width: 32%;
+	aspect-ratio: 4/1;
+	margin-right: 3px;
+	background-color: #FFF785;
+	border-radius: 5px;
+	border: 2px solid black;
+	font-size: 90%;
+	font-weight: bold;
+}
